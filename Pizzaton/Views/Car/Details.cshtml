@@ -1,0 +1,25 @@
+﻿@model Pizzaton.Models.Car
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Car</legend>
+
+    <div class="display-label">Model</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Model)
+    </div>
+
+    <div class="display-label">SerialNumber</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.SerialNumber)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

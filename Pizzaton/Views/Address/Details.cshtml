@@ -1,0 +1,30 @@
+﻿@model Pizzaton.Models.Address
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Address</legend>
+
+    <div class="display-label">Street</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Street)
+    </div>
+
+    <div class="display-label">Building</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Building)
+    </div>
+
+    <div class="display-label">Zip</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Zip)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

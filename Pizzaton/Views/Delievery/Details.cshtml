@@ -1,0 +1,20 @@
+﻿@model Pizzaton.Models.Delievery
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<fieldset>
+    <legend>Delievery</legend>
+
+    <div class="display-label">Driver</div>
+    <div class="display-field">
+        @Html.DisplayFor(model => model.Driver)
+    </div>
+</fieldset>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id=Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
