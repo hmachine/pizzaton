@@ -1,0 +1,22 @@
+﻿@model IEnumerable<Pizzaton.Core.Models.Product>
+
+@{
+    ViewBag.Title = "Menu";
+}
+
+<h2>Menu</h2>
+
+<table>
+    <tr>
+    </tr>
+
+@foreach (var item in Model)
+{
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Price)
+        </td>
+    </tr>
+}
+
+</table>

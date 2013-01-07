@@ -1,4 +1,4 @@
-﻿using Pizzaton.Models;
+﻿using Pizzaton.Core.Models;
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;

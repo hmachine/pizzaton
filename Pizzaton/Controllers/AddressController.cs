@@ -5,7 +5,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Pizzaton.Models;
+using Pizzaton.Core.Models;
 using Pizzaton.Core;
 
 namespace Pizzaton.Controllers
