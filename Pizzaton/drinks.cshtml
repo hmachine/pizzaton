@@ -1,9 +1,8 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Home</title>
+    <title>Drinks top</title>
     <meta charset="utf-8">
-    <title>@ViewBag.Title</title>
     <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
     <link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
@@ -51,69 +50,65 @@
         <h1><a href="index.html"><img src="images/logo.jpg" style="margin: 0 auto;" alt=""></a></h1>
         <nav>  
             <ul class="menu">
-                <li class="current">@Html.ActionLink("Home", "Index", "Home")</li>
-                <li></li>
-                <li><a href="top.cshtml">Today's top</a></li>
-                <li><a href="menu.cshtml">Menu</a></li>
-                <li><a href="about.html">About us</a></li>
+                <li><a href="#">Home</a></li>
+                <li ><a href="top.cshtml">Today's top</a></li>
+                <li class="current"><a href="menu.cshtml">Menu</a></li>
+                <li><a href="#">About us</a></li>
             </ul>
             <div class="clear"></div>
          </nav>
-        <div id="slide">		
-            <div class="slider">
-                <ul class="items">
-                    <li><img src="images/slider-1.jpg" alt="" /></li>
-                    <li><img src="images/slider-2.jpg" alt="" /></li>
-                    <li><img src="images/slider-3.jpg" alt="" /></li>
-                </ul>
-          </div>
-          <div class="phone-number">Call us for reservation:<strong>1-800-123-1234</strong></div>	
-      </div> 
     </header>  
   <!--==============================content================================-->
     <section id="content">
-        @Html.Partial("_LogOnPartial")
-       <div class="block-1">
-       	<div class="border-right">
-        	<div class="block-1-title">
-            	<span>01.</span>
-                <div class="text-1">Best<strong>cuisine</strong></div>
-                <strong class="clear"></strong>
-            </div>
-            <p class="border-1">Maecenas faucibus sagittis cursus. Fusce tincidunt, tellus eget tristique cursus, orci mi iaculis. sem, sit amet dictum velit velit eu magna. 
-Nunc viverra nisi sed orci.</p>
-            <a href="#" class="link-1">read more</a>
-        </div>
-        <div class="border-right">
-        	<div class="block-1-title">
-            	<span>02.</span>
-                <div class="text-2">Good<strong>rest</strong></div>
-                <strong class="clear"></strong>
-            </div>
-            <p class="border-1">Maecenas faucibus sagittis cursus. Fusce tincidunt, tellus eget tristique cursus, orci mi iaculis. sem, sit amet dictum velit velit eu magna. 
-Nunc viverra nisi sed orci.</p>
-            <a href="#" class="link-1">read more</a>
-        </div>
-        <div class="border-right">
-        	<div class="block-1-title">
-            	<span>03.</span>
-                <div class="text-3">Great<strong>service</strong></div>
-                <strong class="clear"></strong>
-            </div>
-            <p class="border-1">Maecenas faucibus sagittis cursus. Fusce tincidunt, tellus eget tristique cursus, orci mi iaculis. sem, sit amet dictum velit velit eu magna. 
-Nunc viverra nisi sed orci.</p>
-            <a href="#" class="link-1">read more</a>
-        </div>
-        <div class="block-1-last">
-        	<div class="block-1-title">
-            	<span>04.</span>
-                <div class="text-4">Best<strong>cooks</strong></div>
-                <strong class="clear"></strong>
-            </div>
-            <p class="border-1">Maecenas faucibus sagittis cursus. Fusce tincidunt, tellus eget tristique cursus, orci mi iaculis. sem, sit amet dictum velit velit eu magna. </p>
-            <a href="#" class="link-1">read more</a>
-        </div>
-       </div>
+      <div class="CSSTableGenerator" style="border-right:#BEBEBE 1px solid;border-left:#BEBEBE 1px solid;padding-top: 20px;" >
+	<h2 class="h2-line" style="width:60%; margin:0 0 0 35px;">Drinks</h2>
+          <table style="width:60%;margin:0 0 0 35px; " >
+		<tr> 
+			<td>
+				Name
+			</td>
+			<td >
+				Price
+			</td>
+		</tr>
+		<tr>
+			<td >
+				Row 1
+			</td>
+			<td>
+				Row 1
+			</td>
+
+		</tr>
+		<tr>
+			<td >
+				Row 2
+			</td>
+			<td>
+				Row 2
+			</td>
+
+		</tr>
+		<tr>
+			<td >
+				Row 2
+			</td>
+			<td>
+				Row 2
+			</td>
+
+		</tr>
+		<tr>
+			<td >
+				Row 3
+			</td>
+			<td>
+				Row 3
+			</td>
+
+		</tr>
+	</table>
+</div>
        <div class="block-2 pad-1">
           
        	<div class="col-1">
@@ -142,16 +137,16 @@ Nunc viverra nisi sed orci.</p>
              </div> 
         </div>
         <div class="clear"></div>
-      
+
        </div>
     </section> 
 
 <!--==============================footer=================================-->
   <footer>
-       @RenderBody()
       <p>© 2012  Valencia<br>
   </footer>	 
 </div> 
 </div>       
 </body>
-</html>
+</html>       
+ 
